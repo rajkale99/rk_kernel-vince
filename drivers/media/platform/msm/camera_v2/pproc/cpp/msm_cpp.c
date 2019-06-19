@@ -1333,7 +1333,6 @@ static int cpp_open_node(struct v4l2_subdev *sd, struct v4l2_subdev_fh *fh)
 			mutex_unlock(&cpp_dev->mutex);
 			return rc;
 		}
-
 		cpp_dev->state = CPP_STATE_IDLE;
 	}
 
